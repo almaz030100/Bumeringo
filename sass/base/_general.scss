@@ -1,0 +1,79 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.call {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 10px;
+    img {
+        transition: all .5s;
+    }
+    &:hover {
+        img {
+            transform: scale(1.7) rotate(20deg);
+        }
+    }
+    &__phone {
+        padding: 12px 13px 14px 13px;
+        border: 1px solid #696969;
+        border-radius: 50%;
+    }
+    &__order {
+        text-align: center;
+        max-width: 160px;
+        &-number {
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 1.33;
+        }
+        &-link {
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 1.33;
+        }
+    }
+}
+
+.title {
+    font-family: 'MADE GoodTime Grotesk';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    span {
+        color: #F28400;
+    }
+}
+
+.title-black {
+    color: #363D4F;
+}
+
+.title-white {
+    color: #fff;
+}
+
+.tac {
+    text-align: center;
+}
+
+.fz20 {
+    font-size: 20px;
+}
+
+.wow {
+    visibility: hidden;
+}
+
+section {
+    overflow: hidden;
+}

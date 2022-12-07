@@ -1,0 +1,74 @@
+.footer {
+    padding: 73px 0;
+    &__wrapper {
+        color: rgba(54, 61, 79, 0.64);
+        display: grid;
+        grid-template-columns: 297px 238px 252px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__company {
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        img {
+            width: 237px;
+        }
+        a {
+            font-size: 15px;
+            line-height: 1.2;
+            text-decoration: underline;
+            text-align: center;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        .footer__youtube {
+            img {
+                width: initial;
+            }
+        }
+    }
+    &__call {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        .call {
+            color: rgba(54, 61, 79, 0.64);
+            gap: 32px;
+        }
+        .call__order-number {
+            font-size: 20px;
+        }
+        .call__order-link {
+            font-size: 18px;
+            text-decoration: underline;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        .call__order {
+            max-width: 174px;
+            text-align: right;
+        }
+        .call__phone {
+            border-color: #24C016;
+        }
+    }
+    &__franchising {
+        font-size: 15px;
+        line-height: 1.2;
+        a {
+            display: flex;
+            gap: 16px;
+        }        
+    }
+}

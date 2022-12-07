@@ -1,0 +1,175 @@
+.centres {
+    background: url('../img/centres/bg-line.png') right -37px center no-repeat, #242935;
+    color: #fff;
+    padding: 71px 0 104px 0;
+    .container {
+        position: relative;
+    }
+    &__bg-number {
+        font-family: 'MADE GoodTime Grotesk';
+        font-weight: 400;
+        font-size: 140px;
+        line-height: 1.29;
+        letter-spacing: -0.03em;
+        color: rgba(255, 255, 255, 0.01);
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 40%;
+        left: -480px;
+    }
+    &__subtitle {
+        margin-top: 13px;
+        line-height: 1.2;
+        color: rgba(255, 255, 255, 0.62);
+    }
+    &__wrapper {
+        margin-top: 54px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+    .zones {
+        &__title {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.23;
+            span {
+                color: #f28400;
+            }
+        }
+        &__subtitle {
+            margin-top: 12px;
+            font-size: 18px;
+            line-height: 1.22;
+            color: rgba(255, 255, 255, 0.55);
+        }
+        &__wrapper {
+            margin-top: 47px;
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+        }
+        &__item {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+        &__number {
+            width: 62px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 1.25;
+            color: rgba(255, 255, 255, 0.06);
+        }
+        &__text {
+            background: #363D4F;
+            border-radius: 9px;
+            width: 530px;
+            height: 99px;
+            padding: 0 53px;
+            display: flex;
+            align-items: center;
+            line-height: 1.22;
+        }
+        &__information {
+            margin-top: 70px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            .button {
+                min-width: 289px;
+            }
+            .divider {
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                width: 0px;
+                height: 88px;
+            }
+            &-text {
+                font-size: 16px;
+                line-height: 1.25;
+                color: rgba(255, 255, 255, 0.55);
+            }
+            &-mobile {
+                display: none;
+            }
+        }
+    }
+    .design {
+        &__title {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.23;
+            span {
+                color: #f28400;
+            }
+        }
+        &__subtitle {
+            margin-top: 12px;
+            font-size: 18px;
+            line-height: 1.22;
+            color: rgba(255, 255, 255, 0.55);
+        }
+        &__wrapper {
+            margin-top: 47px;
+            display: flex;
+            column-gap: 41px;
+            row-gap: 32px;
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 289px;
+            height: 232px;
+            border-radius: 12px;
+            padding-bottom: 16px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            background: center center / cover no-repeat;
+            position: relative;
+            &:nth-child(1) {
+                background-image: url('../img/centres/design1.png');
+            }
+            &:nth-child(2) {
+                background-image: url('../img/centres/design2.png');
+            }
+            &:nth-child(3) {
+                background-image: url('../img/centres/design3.png');
+            }
+            &:nth-child(4) {
+                background-image: url('../img/centres/design4.png');
+            }
+            a {
+                position: absolute;
+                bottom: -28px;
+                font-size: 16px;
+                line-height: 1.25;
+                text-decoration: underline;
+                color: rgba(255, 255, 255, 0.3);
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            img {
+                display: none;
+            }
+            cursor: pointer;
+            transition: 0.3s all;
+            &::before {
+                content: url('../img/centres/design-search.svg');
+                display: block;
+                opacity: 0;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                transition: 0.3s all;
+            }
+            &:hover {
+                &::before {
+                    opacity: 1;
+                }
+                filter: brightness(30%);
+            }
+        }
+    }
+}

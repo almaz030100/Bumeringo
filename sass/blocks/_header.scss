@@ -1,0 +1,33 @@
+.header {
+    padding-top: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        display: flex;
+        gap: 17px;
+        align-items: center;
+        &-text {
+            font-size: 15px;
+            line-height: 1.2;
+            color: rgba(255, 255, 255, 0.62);
+            max-width: 665px;
+        }
+    }
+}
+
+.header_thanks {
+    position: initial;
+    .header__logo-text {
+        color: #363D4F;
+        opacity: 0.54;
+    }
+    .call {
+        color: #9296A0;
+    }
+}

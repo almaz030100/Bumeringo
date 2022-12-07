@@ -1,0 +1,108 @@
+.stages {
+    background: url('../img/stages/bg-right.png') right -96px center no-repeat, #242935;
+    padding: 43px 0 79px 0;
+    color: #fff;
+    .container {
+        position: relative;
+    }
+    &__subtitle {
+        margin-top: 9px;
+        line-height: 1.2;
+        color: rgba(255, 255, 255, 0.62);
+    }
+    &__wrapper {
+        margin-top: 78px;
+        display: grid;
+        grid-template-columns: 460px 460px;
+        justify-content: space-between;
+    }
+    .col1 {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        .stages__item {
+            justify-content: end;
+        }
+        .stages__item-text {
+            text-align: end;
+        }
+    }
+    .col2 {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .divider {
+        border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        &-text {
+            font-size: 18px;
+            line-height: 1.22;
+        }
+        &-number {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.25;
+            color: rgba(255, 255, 255, 0.06);
+        }
+    }
+    &__phone {
+        position: absolute;
+        top: 53%;
+        left: 50%;
+        transform: translateX(-50%);
+        img {
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .blur {
+            width: 200px;
+            height: 530px;
+            background: #4F23FF;
+            border: 1px solid #4A4A4A;
+            border-radius: 100%;
+            filter: blur(121.5px);
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .ellipse {
+            width: 262px;
+            height: 458px;
+            border: 1px solid #4A4A4A;
+            border-radius: 100%;
+            position: absolute;
+            z-index: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__presentation {
+        max-width: 878px;
+        margin-top: 86px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+        .button {
+            min-width: 289px;
+        }
+        span {
+            font-size: 20px;
+            line-height: 1.2;
+            color: rgba(255, 255, 255, 0.62);
+        }
+    }
+}

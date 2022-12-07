@@ -1,0 +1,60 @@
+.business {
+    padding: 40px 0;
+    background: url('../img/business/bg.jpg') center center / cover no-repeat;
+    color: #fff;
+    &__title {
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 31px;
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-family: 'Geometria';
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1.24;
+    }
+    &__wrapper {
+        margin-top: 29px;
+        margin-bottom: 31px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 31px;
+    }
+    &__item {
+        height: 197px;
+        border-radius: 22px;
+        padding-left: 40px;
+        padding-right: 224px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 13px;
+        &-title {
+            font-family: 'Geometria';
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.25;
+        }
+        &-text {
+            font-size: 17px;
+            line-height: 1.24;
+        }
+        background: right bottom no-repeat, #F28400;
+        &:nth-child(1) {
+            background-image: url('../img/business/1.png');
+        }
+        &:nth-child(2) {
+            background-image: url('../img/business/2.png');
+        }
+        &:nth-child(3) {
+            background-image: url('../img/business/3.png');
+        }
+        &:nth-child(4) {
+            background-image: url('../img/business/4.png');
+        }
+    }
+}

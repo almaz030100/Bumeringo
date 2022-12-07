@@ -1,0 +1,105 @@
+.profit {
+    padding: 42px 0;
+    color: #363D4F;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 706px 512px;
+        gap: 64px;
+    }
+    .calc {
+        position: relative;
+        z-index: 1;
+        background: rgba(249, 249, 249, 0.4);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 44px;
+        padding: 62px 0 0 0;
+        &__title {
+            margin-left: 42px;
+            margin-right: 42px;
+            font-family: 'MADE GoodTime Grotesk';
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 1.28;
+            &.mt45 {
+                margin-top: 45px;
+            }
+        }
+        .divider {
+            margin-left: 42px;
+            margin-right: 42px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            margin-top: 22px;
+            margin-bottom: 17px;
+        }
+        &__value-name {
+            &.mt36 {
+                margin-top: 36px;
+            }
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 1.24;
+            margin-bottom: 7px;
+            margin-left: 42px;
+            margin-right: 42px;
+        }
+        input {
+            margin-left: 42px;
+            margin-right: 42px;
+            width: 620px;
+            height: 20px;
+        }
+        &__total {
+            margin-top: 43px;
+            height: 110px;
+            background: #242935;
+            border-radius: 0px 0px 42px 42px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Geometria';
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 1.24;
+            color: #FFFFFF;
+            padding: 0 40px;
+        }
+        &__range {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 42px;
+            margin-right: 42px;
+            margin-top: 9px;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 1.2;
+            opacity: 0.5;
+        }
+    }
+    &__subtitle {
+        margin-top: 21px;
+        line-height: 1.2;
+        color: #363D4F;
+        opacity: 0.7;
+        max-width: 512px;
+    }
+    &__main {
+        position: relative;
+    }
+    &__phone {
+        position: absolute;
+        bottom: -42px;
+        left: -17%;
+    }
+    &__sum {
+        font-family: 'Geometria';
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 1.26;
+        color: #FFFFFF;
+        position: absolute;
+        width: 290px;
+        text-align: center;
+        top: calc(50% - 67px);
+        left: calc(50% - 108px);
+    }
+}

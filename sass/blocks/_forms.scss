@@ -1,0 +1,75 @@
+.form-open {
+    background: #4F23FF;
+    border-radius: 17px;
+    padding: 35px 70px;
+    .form__title {
+        font-family: 'Geometria';
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.27;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .form__main {
+        margin-top: 25px;
+    }
+    .form__inputs {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        justify-content: center;
+        input {
+            color: #fff;
+            width: 259px;
+            height: 64px;
+            border-radius: 53px;
+            border-style: none;
+            padding-left: 45px;
+            padding-right: 15px;
+            font-family: 'Geometria';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 1.6;
+            background: #6741FF left 15px center no-repeat;
+            &:focus-visible {
+                outline: 2px solid #9782e7;
+            }
+            &::placeholder {
+                color: #9CBFF2;
+            }
+            &[name="phone"] {
+                background-image: url('../img/forms/phone.svg');
+            }
+            &[name="email"] {
+                background-image: url('../img/forms/email.svg');
+            }
+            &[name="name"] {
+                background-image: url('../img/forms/name.svg');
+            }
+        }
+    }
+    .form__policy {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        margin-top: 25px;
+        font-family: 'Geometria';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.25;
+        color: #9CBFF2;
+        a {
+            text-decoration: underline;
+        }
+    }
+}
+
+label.error {
+    display: none !important;
+}
+
+input.error {
+    outline: 1px solid #ff3e3e;
+}

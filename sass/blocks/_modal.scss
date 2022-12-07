@@ -1,0 +1,158 @@
+.modal {
+    width: 907px;
+    height: 563px;
+    padding: 61px 66px 63px 70px;
+    background-color: #fff;
+    display: none;
+    .form {
+        display: grid;
+        grid-template-columns: 312px 310px;
+        justify-content: space-between;
+        #form-title {
+            display: block;
+            font-family: 'MADE GoodTime Grotesk';
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 1.5;
+            text-transform: uppercase;
+            color: #242935;
+        }
+        #form-subtitle {
+            display: block;
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 1.22;
+            color: #363D4F;
+        }
+        &__main {
+            margin-top: 11px;
+        }
+        &__inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        input {
+            color: #000;
+            height: 74px;
+            background: #EBEBEB;
+            border-radius: 10px;
+            border-style: none;
+            padding-left: 33px;
+            padding-right: 20px;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.25;
+            &:focus-visible {
+                outline: 2px solid #8a8a8a;
+            }
+            &::placeholder {
+                color: #B1B1B1;
+            }
+        }
+        .button {
+            margin-top: 8px;
+            width: 100%;
+            height: 70px;
+        }
+        &__policy {
+            margin-top: 29px;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            align-items: start;
+            font-family: 'Blogger Sans';
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 1.1;
+            color: rgba(78, 78, 78, 0.56);
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+#modal1 {
+    background: url('../img/modal/bg-modal1.jpg') left 16px bottom 52px no-repeat, #fff;
+}
+
+#modal2 {
+    padding: 36px 421px 36px 60px;
+    background: url('../img/modal/bg-modal2.jpg') right center / contain no-repeat, #fff;
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        &__main {
+            margin-top: 22px;
+            width: 439px;
+        }
+        &__inputs {
+            gap: 17px;
+        }
+        input {
+            height: 62px;
+        }
+        .button {
+            margin-top: 0;
+            height: 63px;
+        }
+        &__policy {
+            margin-top: 20px;
+            gap: 5px;
+        }
+    }
+}
+
+#modal3 {
+    background: url('../img/modal/bg-modal3.jpg') left bottom / 450px no-repeat, #fff;
+    .form {
+        grid-template-columns: 423px 310px;
+        #form-title {
+            font-size: 25px;
+        }
+        #form-subtitle {
+            max-width: 350px;
+        }
+    }
+}
+
+#modal-policy {
+    height: auto;
+    padding: 50px;
+    line-height: 1.2;
+    .policy__title {
+        font-weight: 700;
+        font-size: 24px;
+        max-width: 600px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    strong {
+        display: block;
+        margin-top: 30px;  
+        font-size: 18px;
+    }
+    b {
+        display: block;
+        margin-top: 15px;
+    }
+    p {
+        display: block;
+        margin-top: 15px;
+        padding-left: 25px;
+    }
+    a {
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 24px;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

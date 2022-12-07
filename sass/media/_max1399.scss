@@ -1,0 +1,212 @@
+@media (max-width: 1399px) {
+    .container {
+        width: 1140px;
+    }
+    .promo {
+        background: url("../img/promo/bg.jpg") center center/cover no-repeat;
+    }
+    .boxservice__title {
+        max-width: 769px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .boxservice__subtitle {
+        br {
+            display: none;
+        }
+    }
+    .boxservice {
+        background: url("../img/boxservice/box.png") left calc(50% + 0px) top 35% no-repeat;
+    }
+    .model .bg-right {
+        display: none;
+    }
+    .model__header {
+        column-gap: 40px;
+    }
+    .model .reasons__block {
+        padding: 37px 10px 0 15px;
+    }
+    .model .reasons__block-big {
+        width: 257px;
+    }
+    .model .bg-left {
+        display: none;
+    }
+    .model .problems__wrapper .splide__list {
+        justify-content: center;
+    }
+    .model .brands {
+        gap: 63px;
+    }
+    .model .block-button {
+        padding: 42px 631px 41px 55px;
+        overflow: hidden;
+    }
+    .model .block-button img {
+        right: -143px;
+    }
+    .interview__main img {
+        right: calc(50% + 125px);
+    }
+    .centres__title {
+        max-width: 820px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .centres__subtitle {
+        br {
+            display: none;
+        }
+    }
+    .centres {
+        background: #242935;
+    }
+    .centres .design__wrapper {
+        column-gap: 20px;
+    }
+    .centres__wrapper {
+        grid-template-columns: 535px auto;
+    }
+    .centres .zones__information {
+        gap: 20px;
+    }
+    .centres .zones__information .button {
+        min-width: 242px;
+    }
+    .centres .design__item {
+        width: 269px;
+        height: 212px;
+    }
+    .stat {
+        background: initial;
+    }
+    .stat__brands-title {
+        max-width: 454px;
+    }
+    .stat__wrapper {
+        grid-template-columns: 757px auto;
+        gap: 30px;
+    }
+    .stat__ratio-item img {
+        width: 85px;
+    }
+    .stat__ratio-logo {
+        gap: 17px;
+    }
+    .stages {
+        background: #242935;
+    }
+    .stages__wrapper {
+        grid-template-columns: 430px 430px;
+    }  
+    .support .bg-left {
+        display: none;
+    }
+    .support__title {
+        max-width: 684px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .support__wrapper {
+        gap: 25px;
+    }
+    .support__item:nth-child(2):before {
+        width: 292px;
+    }
+    .support__item:nth-child(3):before {
+        width: 292px;
+    }
+    .support__item-title {
+        margin-left: 30px;
+    }
+    .support__item-text {
+        margin-left: 30px;
+    }
+    .support__item:nth-child(1) {
+        padding-right: 30px;
+    }
+    .support__item:nth-child(2) {
+        padding-right: 30px;
+    }
+    .support__item {
+        padding-bottom: 30px;
+    }
+    .support__descr {
+        max-width: 717px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .offer__subtitle {
+        text-align: center;
+        padding: 0 169px;
+    }
+    .profit__wrapper  {
+        grid-template-columns: 600px auto;
+        gap: 40px;
+    }
+    .profit .calc input {
+        width: 514px;
+    }
+    .profit__phone {
+        left: -24%;
+    }
+    .uniqueness__item {
+        max-width: 280px;
+    }
+    .uniqueness__wrapper {
+        max-width: 708px;
+    }
+    .uniqueness__title {
+        text-align: center;
+        max-width: 716px;
+    }
+    .uniqueness {
+        background: url("../img/uniqueness/bg.png") left calc(50% - 343px) bottom -96px no-repeat,#363d4f;
+    }
+    .business__item {
+        height: 248px;
+    }
+    .form-open .form__title {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 700px;
+    }
+    .fancybox__slide {
+        padding: 40px 100px;
+    }
+    .boxservice__unique {
+        gap: 20px;
+    }
+    .boxservice__unique-title span {
+        max-width: 322px;
+        font-size: 20px;
+    }
+
+    .thanks__founder {
+        transform: scale(0.8);
+        left: calc(50% + 111px);
+        top: -4px;
+    }
+    .thanks__button {
+        max-width: 812px;
+        column-gap: 51px;
+    }
+    .boxservice__video span {
+        font-size: 15px;
+    }
+    .boxservice__video-line {
+        left: 123px;
+        top: 28px;
+        width: 30px;
+    }
+    .boxservice__video-play {
+        top: 66px;
+        left: 126px;
+        width: 50px;
+    }
+    .boxservice__video {
+        top: 259px;
+        left: calc(50% + 40px);
+    }
+}

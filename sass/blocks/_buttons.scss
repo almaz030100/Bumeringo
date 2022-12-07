@@ -1,0 +1,51 @@
+@keyframes slideme{0%{left:-30px;margin-left:0}30%,to{left:110%;margin-left:80px}}
+
+.button {
+    width: 331px;
+    height: 78px;
+    // background: linear-gradient(180deg, #FF4747 0%, #B94141 100%);
+    background: #B94141;
+    transition: background-color .5s;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.42);
+    border-radius: 55px;
+    border-style: none;
+
+    font-family: 'Geometria';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.28;
+    text-align: center;
+    letter-spacing: 0.179478px;
+    color: #FFFFFF;
+
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+        background: #FF4747;
+    }
+
+    &:active {
+        background: #d82121;
+        transition: none;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        animation-delay: .05s;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-name: slideme;
+        animation-timing-function: ease-in-out;
+        background: linear-gradient(0deg,#fff,hsla(0,0%,100%,.01));
+        height: 300px;
+        left: -90px;
+        margin-left: 60px;
+        top: -150px;
+        transform: rotate(45deg);
+        transition: all .3s;
+        width: 25px;
+        z-index: 0;
+    }
+}

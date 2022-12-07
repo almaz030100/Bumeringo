@@ -1,0 +1,39 @@
+.uniqueness {
+    padding: 56px 0 60px 0;
+    background: url('../img/uniqueness/bg.png') left calc(50% - 370px) bottom -96px no-repeat, #363D4F;
+    &__title {
+        max-width: 778px;
+        font-family: 'Geometria';
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1.24;
+        letter-spacing: 0;
+        margin-left: auto;
+    }
+    &__wrapper {
+        max-width: 778px;
+        margin-left: auto;
+        margin-top: 28px;
+        display: flex;
+        gap: 30px;
+        .divider {
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            min-height: 100%;
+        }
+    }
+    &__item {
+        max-width: 370px;
+    }
+    &__number {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 1.23;
+        color: rgba(255, 255, 255, 0.06);
+        margin-bottom: 10px;
+    }
+    &__text {
+        font-size: 17px;
+        line-height: 1.24;
+        color: #FFFFFF;
+    }
+}

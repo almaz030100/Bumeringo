@@ -1,0 +1,174 @@
+.stat {
+    padding: 35px 0 51px 0;
+    color: #363d4f;
+    background: url('../img/stat/bg.png') left -79px bottom no-repeat;
+    &__subtitle {
+        margin-top: 10px;
+        line-height: 1.2;
+        color: #363D4F;
+        opacity: 0.7;
+    }
+    &__wrapper {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 840px auto;
+        gap: 40px;
+        align-items: center;
+    }
+    &__brands {
+        background: #F9F9F9;
+        border-radius: 44px;
+        padding: 51px 0 50px;
+        &-title {
+            margin-left: 45px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.23;
+        }
+        &-wrapper {
+            margin-top: 65px;
+            display: flex;
+            gap: 86px;
+        }
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+        }
+        &-item {
+            display: flex;
+            gap: 29px;
+            align-items: center;
+            &:nth-child(1) {
+                .stat__brands-percent {
+                    background: #363D4F;
+                }
+            }
+            &:nth-child(2) {
+                .stat__brands-percent {
+                    background: #F28400;
+                }
+            }
+            &:nth-child(3) {
+                .stat__brands-percent {
+                    background: #4F23FF;
+                }
+            }
+            &:nth-child(4) {
+                .stat__brands-percent {
+                    background: #242935;
+                }
+            }
+            &:nth-child(5) {
+                .stat__brands-percent {
+                    background: #E1E1E1;
+                    color: #363D4F;
+                }
+            }
+            span {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 1.22;
+            }
+        }
+        &-percent {
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: -0.03em;
+            width: 45px;
+            height: 45px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-text {
+            max-width: 687px;
+            margin-top: 64px;
+            margin-left: 43px;
+            font-size: 16px;
+            line-height: 1.25;
+            opacity: 0.69;
+        }
+    }
+    &__ratio {
+        &-title {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.23;
+        }
+        &-wrapper {
+            margin-top: 33px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        &-item {
+            img {
+                width: 103px;
+            }
+            &:nth-child(1) {
+                .stat__ratio-percent {
+                    width: 31%;
+                    padding-right: 31px;
+                }
+            }
+            &:nth-child(2) {
+                .stat__ratio-percent {
+                    width: 25%;
+                    padding-right: 21px;
+                }
+            }
+            &:nth-child(3) {
+                .stat__ratio-percent {
+                    width: 13%;
+                    padding-right: 8px;
+                }
+            }
+        }
+        &-logo {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            span {
+                font-size: 17px;
+                line-height: 1.24;
+            }
+        }
+        &-full {
+            margin-top: 14px;
+            width: 100%;
+            height: 58px;
+            background: #242935;
+            border-radius: 0px 13px 13px 0px;
+            padding-right: 31px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            font-size: 18px;
+            line-height: 1.22;
+            color: #FFFFFF;
+        }
+        &-percent {
+            margin-top: 3px;
+            height: 58px;
+            background: #7E8EB5;
+            border-radius: 0px 13px 13px 0px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            font-size: 18px;
+            line-height: 1.22;
+            color: #FFFFFF;
+        }
+    }
+    &__descr {
+        max-width: 996px;
+        margin: 33px auto 0 auto;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+    }
+}

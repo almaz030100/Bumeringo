@@ -1,0 +1,79 @@
+.offer {
+    background: url('../img/offer/bg-instrument.png') right bottom -86px / contain no-repeat, url('../img/offer/bg-line.png') center top -176% no-repeat, #242935;
+    color: #fff;
+    padding: 52px 0 66px 0;
+    &__title {
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__subtitle {
+        margin-top: 53px;
+        height: 70px;
+        background: #F28400;
+        border-radius: 7px 7px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    &__wrapper {
+        padding: 29px 35px;
+        background: #363D4F;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        &:after {
+            content: '';
+            display: block;
+            width: 100%;
+            opacity: 0.08;
+            border: 1px solid #FFFFFF;
+            position: absolute;
+            bottom: -14px;
+        }
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+    }
+    &__name {
+        font-size: 18px;
+        line-height: 1.22;
+    }
+    &__sum {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+    &__total {
+        background: #2A2F3D;
+        border-radius: 0px 0px 7px 7px;
+        height: 78px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 35px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1.24;
+        color: #F28400;
+    }
+    .button {
+        margin-top: 45px;
+        width: 289px;
+        height: 68px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

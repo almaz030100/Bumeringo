@@ -1,0 +1,71 @@
+.promo {
+    padding: 142px 0 51px 0;
+    background: url('../img/promo/bg-left-round.png') left -104px center no-repeat, url('../img/promo/bg.jpg') center center / cover no-repeat;
+    color: #ffffff;
+    &__title {
+        max-width: 840px;
+        font-family: 'MADE GoodTime Grotesk';
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 1.29;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        span {
+            color: #F28400;
+        }
+    }
+    &__subtitle {
+        margin-top: 42px;
+        padding-left: 15px;
+        max-width: 834px;
+        font-size: 23px;
+        line-height: 1.22;
+        position: relative;
+        span {
+            color: #F28400;
+            font-weight: 700;
+        }
+        &::before {
+            content: '';
+            display: block;
+            border: 1px solid rgba(255, 255, 255, 0.68);
+            height: 46px;
+            width: 0;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &__advantages {
+        margin-top: 52px;
+        .splide__list {
+            display: flex !important;
+            gap: 66px;
+        }
+        &-item {
+            width: 225px;
+            height: 118px;
+            background: #363D4F;
+            border-radius: 9px;
+            padding: 16px 16px 0 16px;
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 1.22;
+            color: #F28400;
+        }
+        &-text {
+            margin-top: 15px;
+            font-size: 18px;
+            line-height: 1.22;
+        }
+    }
+    .form {
+        margin-top: 52px;
+    }
+    .button-mobile {
+        display: none;
+    }
+}
